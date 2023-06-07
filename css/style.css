@@ -1,0 +1,113 @@
+:root{
+    /*COLORS*/
+    --red:#fc0506;
+    --green:#019201;
+    --orange:#fabf0c;
+    --purple:#8f028a;
+}
+
+.main{
+    margin-top: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle{
+    display:flex;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+.circle_el_1,
+.circle_el_2,
+.circle_el_3,
+.circle_el_4{
+    width: 100px;
+    height: 100px;   
+}
+
+.circle_el_1{
+    border-radius: 110px 0px 0px 0px;
+}
+.circle_el_2{
+    border-radius: 0px 110px 0px 0px ;
+}
+.circle_el_3{
+    border-radius: 0px 0px 0px 110px;
+}
+.circle_el_4{
+    border-radius: 0px 0px 110px 0px ;
+}
+
+.out {
+    background:var(--red);
+    width:100px; 
+    height:100px;
+    position:relative;
+    border-radius: 100%;
+}
+
+.in {
+    background:var(--purple);
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    border-radius: 100%;
+}
+.in1{
+    background:var(--red); 
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    border-radius: 100%;
+}
+.in2{
+    background: var(--purple);
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    position: relative;
+    border-radius: 100%;
+}
+
+.container-leaf{
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+}
+
+.leaf-c{
+    width: 100px;
+    height: 100px;
+}
+.leaf-c:nth-child(1){
+    background: var(--red);
+    border-radius: 45px 70px 0px 70px;
+}
+.leaf-c:nth-child(2){
+    background: var(--orange);
+    border-radius: 70px 45px 70px 0px;
+}
+.leaf-c:nth-child(3){
+    background: var(--green);
+    border-radius: 70px 0px 70px 45px;
+}
+.leaf-c:nth-child(4){
+    background: var(--purple);
+    border-radius: 0px 70px 45px 70px;
+}
+
+.leaf{
+    width: 100px;
+    height: 100px;
+    background: var(--green);
+    border-radius: 0px 70px 45px 70px;
+}
